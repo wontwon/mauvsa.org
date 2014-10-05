@@ -6,7 +6,6 @@ set :app_file, __FILE__
 
 #Compile SCSS to CSS 
 require 'sass/plugin/rack'
-Sass::Plugin.options[:style] = :compressed
 use Sass::Plugin::Rack
 
 configure do

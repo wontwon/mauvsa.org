@@ -18,6 +18,7 @@ gem 'shotgun'
 
 gem 'rerun'
 gem 'sass', '~> 3.4.5'
+gem 'compass'
 
 group :test do
   gem 'faker'
